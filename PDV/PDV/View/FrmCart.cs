@@ -101,7 +101,6 @@ namespace PDV.View
                 txbIdProduct.Text = idProduct.ToString();
                 txbPrice.Text = priceProduct.ToString("F2");
                 txbAddProduct.Text = nameProduct;
-                lblIdClient.Text = ClientProp.Id.ToString();
             }
             else
             {
